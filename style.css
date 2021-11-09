@@ -1,0 +1,151 @@
+body {
+    background-image: url(./images/img1.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(226, 100%, 94%);
+    background-size: cover;
+   background-attachment:local
+
+} 
+
+.design {
+    margin-left: 33%;
+    margin-right: 33.33%;
+    margin-top:4%;
+    bottom: 3%;
+    position: absolute;
+    
+}
+.hero {
+    border-radius: 10px 10px 0px 0px;
+}
+.inbod {
+    width: 450px;
+    height: 380px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -18px;
+}
+.heading {
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding-top: 30px;
+    
+
+}
+.para {
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+.inbod2 {
+    width: 370px;
+    height: 80px;
+    background-color: hsl(255, 100%, 98%);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.music {
+    padding: 20px 0px 0px 20px;
+}
+.anp {
+    position: absolute;
+    top: 380px;
+    left: 30%;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+   
+}
+.year {
+    position: absolute;
+    top: 415px;
+    left: 30%;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.change {
+    position: absolute;
+    top: 417px;
+    left: 68%;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(245, 75%, 52%);}
+
+a:hover
+{color: #766Cf1;}
+
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    outline: none;
+    width: 370px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0px 1px 25px -7.5px hsl(245, 75%, 52%);  
+
+    font-size: 16px;
+    margin-top: 40px;
+    
+}
+
+.btn:hover{background-color: #766Cf1;}
+
+.btn2 {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 370px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 13px;
+} 
+.btn2:hover
+{ color: #000;}
+
+
+@media only screen and (max-device-width: 480px) {
+    .design, .inbod, .inbod2, .btn, .btn2 {
+        margin-left: 0px;
+    }
+    .hero, .inbod {
+        width: 375px;
+    }
+    .heading, .para {
+        margin-left: -25px;
+    }
+    .anp, .year {
+        left: 25%;
+        top: 360px;
+    }
+    .year {
+        left: 25%;
+        top: 390px;
+    }
+    .change {
+        left: 70%;
+        top: 390px;
+    }
+    
+}
+
